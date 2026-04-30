@@ -137,5 +137,4 @@ Future improvements could include:
 
 This project shows how AI can transform everyday digital expression—even a simple social media post—into visual art, making creativity more accessible and dynamic.
 ---
-Special thanks to the Elements of AI “Building AI” course (https://buildingai.elementsofai.com/
-) for inspiring and guiding the development of this project.
+## Special thanks to the Elements of AI “Building AI” course (https://buildingai.elementsofai.com/) for inspiring and guiding the development of this project.
