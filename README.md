@@ -7,6 +7,7 @@
 ## Summary
 **DreamBrush AI** is a creative AI-powered tool that generates personalized digital artwork based on user descriptions, moods, or even short journal entries. It can also analyze social media posts and automatically create small artworks based on the content, emotional tone, and writing style. By combining natural language processing and generative models, the system transforms abstract ideas into visual art pieces.
 
+Tis is a Building AI course project
 ---
 
 ## 🌍 Background
