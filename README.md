@@ -7,7 +7,7 @@
 
 Field | Detail
 -- | --
-Author | [Your Full Name]
+Author | grpsverige
 Course | Elements of AI — Building AI (University of Helsinki & Reaktor)
 Project type | Independent student project
 Submission | Original work conceived and written by the author
