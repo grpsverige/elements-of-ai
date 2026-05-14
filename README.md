@@ -387,4 +387,4 @@ This project was developed as part of the **[[Elements of AI — Building AI](ht
 
 ---
 
-*© 2025 [Your Full Name] — Original work submitted for the Elements of AI: Building AI course.* 
+*© 2025 grpsverige — Original work submitted for the Elements of AI: Building AI course.* 
