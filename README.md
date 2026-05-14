@@ -1,110 +1,4 @@
-<html>
-<body>
-<!--StartFragment--><html><head></head><body><h1>🎨 DreamBrush AI</h1>
-<h3><em>Turning Imagination into Personalised Digital Art</em></h3>
-<hr>
-<h2>📋 Academic Declaration</h2>
-
-Field | Detail
--- | --
-Author | grpsverige
-Course | Elements of AI — Building AI (University of Helsinki & Reaktor)
-Project type | Independent student project
-Submission | Original work conceived and written by the author
-
-
-<h3>Usage context</h3>
-<p>The user provides one of the following inputs:</p>
-<ul>
-<li>A custom text description</li>
-<li>A journal entry</li>
-<li>A social media post or caption</li>
-</ul>
-<p><strong>Example input:</strong></p>
-<blockquote>
-<p><em>"Just finished a stressful week, finally relaxing with tea and rain outside."</em></p>
-</blockquote>
-<p>The system then:</p>
-<ol>
-<li>Analyses the <strong>content</strong> (relaxing, rain, tea)</li>
-<li>Detects the <strong>mood</strong> (transitioning from stress to calm)</li>
-<li>Evaluates <strong>writing style</strong> (personal, reflective, quiet)</li>
-<li>Generates an artwork reflecting that emotional and textual context</li>
-</ol>
-<h3>People affected</h3>
-<p>It is important to consider all stakeholders, not just primary users:</p>
-<ul>
-<li><strong>Users</strong> gain a new, accessible way to express themselves creatively</li>
-<li><strong>Content creators</strong> can enhance posts with personalised AI-generated visuals</li>
-<li><strong>Professional artists</strong> may benefit from using it as an ideation and inspiration tool, though some may have legitimate concerns about AI automation of creative work</li>
-<li><strong>Marginalised communities</strong> with limited access to art education stand to benefit most from lowering the creative barrier</li>
-<li><strong>Dataset contributors</strong> — images used to train generative models were created by human artists; this raises ongoing ethical questions about compensation and consent that the AI community continues to debate</li>
-</ul>
-<hr>
-<h2>5. Challenges</h2>
-<p>DreamBrush AI does not solve every problem, and it is important to be honest about its limitations:</p>
-<p><strong>Technical limitations:</strong></p>
-<ul>
-<li>Interpreting sarcasm, irony, or culturally specific expression in social media posts remains difficult for current NLP models</li>
-<li>Generated images may not fully capture nuanced human intent — the gap between what a person imagines and what a model produces can be significant</li>
-<li>Real-time generation at scale requires substantial computational resources</li>
-</ul>
-<p><strong>Ethical limitations:</strong></p>
-<ul>
-<li>Privacy concerns arise when users share personal text — robust data handling policies and local processing are essential</li>
-<li>Potential bias in sentiment or style detection may reflect the biases present in training data, producing outputs that feel culturally narrow</li>
-<li>Questions around AI-generated creative content — including copyright, attribution, and the impact on human artists — are unresolved at an industry and legal level</li>
-<li>The system could be misused to generate misleading or manipulated visual content from real social media posts</li>
-</ul>
-<p><strong>Scope limitations:</strong></p>
-<ul>
-<li>The current concept does not support audio, video, or multi-modal inputs</li>
-<li>It does not learn from individual user preferences over time without explicit personalisation features being built</li>
-</ul>
-<hr>
-<h2>6. What Next</h2>
-<p>DreamBrush AI could grow in several concrete directions:</p>
-<p><strong>Near-term:</strong></p>
-<ul>
-<li>Build a live interactive demo using <strong>Gradio</strong> and deploy it on <strong>Hugging Face Spaces</strong> so users can test the full pipeline — from text input to generated image — without any setup</li>
-<li>Integrate directly with the <strong>Stability AI</strong> or <strong>Replicate</strong> API to replace the concept stage with a fully working image generation pipeline</li>
-<li>Add support for multiple emotional dimensions beyond simple positive/negative polarity (using <strong>NRC Emotion Lexicon</strong> for nuanced emotion detection: joy, anticipation, trust, fear, surprise, sadness, disgust, anger)</li>
-</ul>
-<p><strong>Medium-term:</strong></p>
-<ul>
-<li>Build a <strong>browser extension</strong> that automatically generates a small artwork alongside any social media post as the user types</li>
-<li>Develop <strong>personalised artistic styles</strong> that learn from a user's history of inputs and preferred outputs</li>
-<li>Add an <strong>interactive editing interface</strong> allowing users to adjust mood sliders and style parameters and regenerate in real time</li>
-</ul>
-<p><strong>Long-term:</strong></p>
-<ul>
-<li>Explore <strong>ethical compensation models</strong> for the artists whose work trained the underlying generative models</li>
-<li>Research <strong>bias auditing tools</strong> to ensure outputs are culturally diverse and representative</li>
-<li>Expand to <strong>multi-modal inputs</strong> — allowing voice notes, photos, or videos as the creative prompt</li>
-</ul>
-<hr>
-<h2>7. Acknowledgments</h2>
-<h3>Open-source tools and models</h3>
-<ul>
-<li><strong><a href="https://stability.ai/">Stable Diffusion</a></strong> by Stability AI — the open-weights generative image model that would power the image generation stage of this project</li>
-<li><strong><a href="https://textblob.readthedocs.io/">TextBlob</a></strong> by Steven Loria — the Python NLP library used in the working sentiment analysis demo</li>
-<li><strong><a href="https://huggingface.co/transformers">Hugging Face Transformers</a></strong> — the open-source library providing access to state-of-the-art NLP and embedding models</li>
-<li><strong><a href="https://openai.com/research/clip">CLIP</a></strong> by OpenAI — the embedding model that bridges text and image representations</li>
-<li><strong><a href="https://gradio.app/">Gradio</a></strong> — the open-source tool planned for building the interactive demo interface</li>
-</ul>
-<h3>Datasets</h3>
-<ul>
-<li><strong>LAION-5B</strong> — open large-scale text-image dataset from the LAION non-profit</li>
-<li><strong>WikiArt</strong> — open fine-art image dataset</li>
-<li><strong>MS-COCO</strong> — Microsoft Common Objects in Context dataset, used widely in vision-language research</li>
-<li><strong>Common Crawl</strong> — open web-crawl text corpus</li>
-</ul>
-<h3>Course</h3>
-<p>This project was developed as part of the <strong><a href="https://buildingai.elementsofai.com/">Elements of AI — Building AI</a></strong> course by Reaktor and the University of Helsinki. The course provided the conceptual foundation for thinking about AI problems, data, techniques, and societal impact that shaped every section of this project.</p>
-<hr>
-<p><em>© 2025 [Your Full Name] — Original work submitted for the Elements of AI: Building AI course.</em></p></body></html><!--EndFragment-->
-</body>
-</html># 🎨 DreamBrush AI
+# 🎨 DreamBrush AI
 
 ### *Turning Imagination into Personalised Digital Art*
 
@@ -114,7 +8,7 @@ Submission | Original work conceived and written by the author
 
 | Field | Detail |
 |---|---|
-| **Author** | [Your Full Name] |
+| **Author** | grpsverige |
 | **Course** | Elements of AI — *Building AI* (University of Helsinki & Reaktor) |
 | **Project type** | Independent student project |
 | **Submission** | Original work conceived and written by the author |
